@@ -1,0 +1,249 @@
+{
+  "main": {
+    "id": "2c4865527533c9c9",
+    "type": "split",
+    "children": [
+      {
+        "id": "8e2535aa9cd85ae3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8a4a1799a8f9794a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "故障管理/故障管理流程/00.名词释义/00.名词释义.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "039b7bfd8f2c408e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "故障管理/故障管理流程/01.故障发现/01.故障发现.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4cb00077fb3868bc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "故障管理/故障管理流程/01.故障发现/02.【7*24h待命要求】.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "25bb00930c5d44f2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "故障管理/故障管理流程/02.故障处理/01.故障预处理/预案审批及修订流程.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b9f1c176c27b12ea",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "故障管理/故障管理流程/02.故障处理/01.故障预处理/故障处理预案及演练.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9e12a0f3cba252dd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "故障管理/故障管理流程/02.故障处理/01.故障预处理/故障处理预案及演练.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "87be7094346188e8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "故障管理/故障管理流程/02.故障处理/02.故障判断/02.故障判断.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 6
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "4947034c7e0632df",
+    "type": "split",
+    "children": [
+      {
+        "id": "38133e91992a970f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "16dfd75a05ed5fcd",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "56ac95fa82d36edd",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "f4fe52a23756d812",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "92e2810f957e020a",
+    "type": "split",
+    "children": [
+      {
+        "id": "41c0098341d920ea",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2adc6f9835ff4678",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "故障管理/故障管理流程/02.故障处理/02.故障判断/02.故障判断.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "63eee43ef3671c92",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "故障管理/故障管理流程/02.故障处理/02.故障判断/02.故障判断.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "b7f0231cbfe7accb",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "717f954577427fe8",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "故障管理/故障管理流程/02.故障处理/02.故障判断/02.故障判断.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
+    }
+  },
+  "active": "87be7094346188e8",
+  "lastOpenFiles": [
+    "故障管理/故障管理流程/02.故障处理/03.故障应急处理/00.故障应急处理.md",
+    "故障管理/故障管理流程/02.故障处理/02.故障判断/02.故障判断.md",
+    "故障管理/故障管理流程/02.故障处理/03.故障应急处理",
+    "故障管理/故障管理流程/02.故障处理/01.故障预处理/故障上报与通报要求.md",
+    "故障管理/故障管理流程/02.故障处理/02.故障判断",
+    "故障管理/故障管理流程/02.故障处理/01.故障预处理/故障处理预案及演练.md",
+    "故障管理/故障管理流程/02.故障处理/01.故障预处理/asset/Pasted image 20240717200030.png",
+    "故障管理/故障管理流程/02.故障处理/01.故障预处理/故障处理操作记录要求.md",
+    "故障管理/故障管理流程/02.故障处理/01.故障预处理/asset/Pasted image 20240717195431.png",
+    "故障管理/故障管理流程/02.故障处理/01.故障预处理/asset/Pasted image 20240717195419.png",
+    "未命名",
+    "故障管理/故障管理流程/02.故障处理/01.故障预处理/预案审批及修订流程.md",
+    "故障管理/故障管理流程/02.故障处理/01.故障预处理/asset",
+    "故障管理/故障管理流程/02.故障处理/01.故障预处理",
+    "故障管理/故障管理流程/00.名词释义",
+    "故障管理/故障管理流程/02.故障处理",
+    "故障管理/故障管理流程/01.故障发现/02.【7*24h待命要求】.md",
+    "故障管理/故障管理流程/01.故障发现",
+    "故障管理/故障管理流程/01.故障发现/01.故障发现.md",
+    "故障管理/故障管理流程/00.名词释义/00.名词释义.md",
+    "未命名.md",
+    "故障管理/故障管理流程(说明）.md",
+    "故障管理/故障管理流程",
+    "故障管理/故障管理简介.md"
+  ]
+}
