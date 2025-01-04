@@ -1,0 +1,12 @@
+
+- ssh重启
+	- sudo systemctl restart sshd
+- 查看ssh配置：
+	- /etc/ssh/sshd_config
+- 查看ssh等详细记录：
+	-  less /var/log/auth.log
+- 查看公钥登陆的记录：
+	- grep Accept /var/log/auth.log
+- ssh配置IP黑白名单：(allow的优先级比较高，修改后需求重启对应服务)
+	- /etc/hosts.allow
+	- /etc/hosts.deny

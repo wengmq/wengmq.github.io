@@ -1,0 +1,1 @@
+- 1.  [Metabase中文操作手册](https://metabasecn.net/category/6/metabase%E4%B8%AD%E6%96%87%E6%93%8D%E4%BD%9C%E6%89%8B%E5%86%8C) [](https://preview.dazdata.com/category/6.rss)

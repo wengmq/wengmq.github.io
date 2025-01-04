@@ -1,0 +1,36 @@
+
+# Project information
+site_name: wengmq's notebook
+site_description: 'A Personal Noteboos'
+site_author: 'wengmq'
+site_url: 'https://wengmq.github.io'
+
+# color_mode: auto
+
+plugins:
+- search:
+    lang:
+        - en
+        - ja
+    separator: '[\s\-\.]+'
+
+# Configuration
+# theme: readthedocs
+theme:
+  name: 'material'
+  logo: assets/logo.png
+  language: 'en'
+  palette:
+    primary: 'blue grey'
+    accent: 'Green'
+  font:
+    text: 'Ubuntu'
+    code: 'Ubuntu Mono'
+  
+
+# Google Analytics
+# google_analytics:
+#   - 'UA-117843700-1'
+#   - 'auto'
+
+

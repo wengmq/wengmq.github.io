@@ -1,0 +1,3 @@
+- ansible官方说明：[http://www.ansible.com.cn/docs/intro.html](http://www.ansible.com.cn/docs/intro.html)
+- ansible-playbook官方说明：[http://www.ansible.com.cn/docs/playbooks_intro.html](http://www.ansible.com.cn/docs/playbooks_intro.html)
+- ansible模块介绍：[http://www.ansible.com.cn/docs/modules_intro.html](http://www.ansible.com.cn/docs/modules_intro.html)
