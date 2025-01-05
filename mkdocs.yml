@@ -6,13 +6,21 @@ site_author: 'wengmq'
 site_url: 'https://wengmq.github.io'
 
 # color_mode: auto
-
 plugins:
-- search:
-    lang:
-        - en
-        - ja
-    separator: '[\s\-\.]+'
+  - search:
+      separator: '[\s\u200b\-]'
+# plugins:
+#   - search:
+#       lang:
+#           - en
+#           - ja
+#       separator: '[\s\-\.]+'
+  # - blog
+
+
+# plugins:
+#   - search
+#   - blog
 
 # Configuration
 # theme: readthedocs
@@ -21,12 +29,42 @@ theme:
   logo: assets/logo.png
   language: 'en'
   palette:
-    primary: 'blue grey'
-    accent: 'Green'
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+      primary: 'blue grey'
+
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default 
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+      primary: 'blue grey'
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
+      primary: 'blue grey'
+        
   font:
     text: 'Ubuntu'
     code: 'Ubuntu Mono'
-  
+
+  features:
+    # 菜单栏设置：https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/#navigation-tabs
+    - navigation.path
+    # 启用部分后，顶级部分在侧边栏中以组的形式呈现
+    - navigation.sections
+    # 启用选项卡后，顶级部分将在 1220px 以上视口标题下方的菜单层中呈现   
+    - navigation.tabs
+    # - navigation.tracking
+
 
 # Google Analytics
 # google_analytics:
