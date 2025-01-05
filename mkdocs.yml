@@ -51,6 +51,7 @@ theme:
         icon: material/brightness-4
         name: Switch to system preference
       primary: 'blue grey'
+
         
   font:
     text: 'Ubuntu'
@@ -64,7 +65,19 @@ theme:
     # 启用选项卡后，顶级部分将在 1220px 以上视口标题下方的菜单层中呈现   
     - navigation.tabs
     # - navigation.tracking
+    - navigation.top
+    # 页脚可以包含指向当前页面上一页和下一页的链接
+    - navigation.footer
 
+copyright: Copyright &copy; wengmq
+
+
+extra:
+  #  删除页脚的 Made with Material for MkDocs
+  generator: false
+  social:
+    - icon: fontawesome/solid/paper-plane
+      link: mailto:<wengmq@163.com>
 
 # Google Analytics
 # google_analytics:
