@@ -1,0 +1,67 @@
+
+- 背景：
+	- 单网卡可以同时配置IPV4和IPV6，现在centos7的的IPV4的网络配置如下：
+```
+TYPE="Ethernet"
+PROXY_METHOD="none"
+BROWSER_ONLY="no"
+BOOTPROTO="none"
+DEFROUTE="yes"
+IPV4_FAILURE_FATAL="no"
+IPV6INIT="yes"
+IPV6_AUTOCONF="yes"
+IPV6_DEFROUTE="yes"
+IPV6_FAILURE_FATAL="no"
+IPV6_ADDR_GEN_MODE="stable-privacy"
+NAME="eno6"
+UUID="418bbaa5-ac88-4154-a5a5-fc9692d70a62"
+DEVICE="eno6"
+ONBOOT="yes"
+IPADDR="154.85.79.117"
+PREFIX="24"
+GATEWAY="154.85.79.1"
+DNS1="8.8.8.8"
+IPV6_PRIVACY="no"
+```
+
+
+
+- 需求：
+	- 我希望这个网卡增加IPV6的配置， 并且网关配置为2407:2440:22:2::1， IPV6网址配置为 2407:2440:22:2::2
+	- 修改：/etc/sysconfig/network-scripts/ifcfg-eno6
+
+```
+TYPE="Ethernet"
+PROXY_METHOD="none"
+BROWSER_ONLY="no"
+BOOTPROTO="none"
+DEFROUTE="yes"
+IPV4_FAILURE_FATAL="no"
+
+# IPv4
+IPADDR="154.85.79.117"
+PREFIX="24"
+GATEWAY="154.85.79.1"
+DNS1="8.8.8.8"
+
+# IPv6
+IPV6INIT="yes"
+IPV6_AUTOCONF="no"
+IPV6_DEFROUTE="yes"
+IPV6_FAILURE_FATAL="no"
+IPV6_ADDR_GEN_MODE="stable-privacy"
+IPV6_PRIVACY="no"
+IPV6ADDR="2407:2440:22:2::2/64"
+IPV6_DEFAULTGW="2407:2440:22:2::1"
+
+NAME="eno6"
+UUID="418bbaa5-ac88-4154-a5a5-fc9692d70a62"
+DEVICE="eno6"
+ONBOOT="yes"
+```
+
+
+- 实际上需要修改的字段：
+	- IPV6_AUTOCONF="no"
+	- IPV6ADDR="2407:2440:22:2::2/64"
+	- IPV6_DEFAULTGW="2407:2440:22:2::1"
