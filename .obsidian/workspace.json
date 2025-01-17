@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/index.md",
+                "file": "docs/个人博客/如何科学上网/01-科学上网原理.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "01-科学上网原理"
             }
           }
         ]
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/index.md",
+                "file": "docs/个人博客/如何科学上网/01-科学上网原理.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "index 的反向链接列表"
+              "title": "01-科学上网原理 的反向链接列表"
             }
           },
           {
@@ -112,12 +112,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/index.md",
+                "file": "docs/个人博客/如何科学上网/01-科学上网原理.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "index 的出链列表"
+              "title": "01-科学上网原理 的出链列表"
             }
           },
           {
@@ -139,10 +139,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/index.md"
+                "file": "docs/个人博客/如何科学上网/01-科学上网原理.md"
               },
               "icon": "lucide-list",
-              "title": "index 的大纲"
+              "title": "01-科学上网原理 的大纲"
             }
           }
         ]
@@ -164,23 +164,28 @@
   },
   "active": "341f8299e43d3106",
   "lastOpenFiles": [
-    "docs/assets/logo.png",
-    "docs/assets/index1.png",
-    "docs/assets/image.png",
+    "docs/个人博客/如何科学上网/03-科学上网客户端.md",
+    "docs/个人博客/如何科学上网/02-科学上网服务器搭建.md",
+    "docs/个人博客/如何科学上网/01-科学上网原理.md",
+    "docs/个人博客/如何科学上网/v2ray_use.png",
+    "docs/个人博客/如何科学上网/VPN1.png",
     "docs/index.md",
+    "docs/个人博客/如何科学上网/assets/v2ray_use.png",
+    "docs/个人博客/如何科学上网/assets/VPN2.png",
+    "docs/个人博客/如何科学上网/assets/VPN1.png",
+    "docs/个人博客/如何科学上网/assets",
+    "docs/个人博客/如何科学上网/VPN2.png",
+    "docs/个人博客/如何科学上网/picture/v2ray_use.png",
+    "docs/个人博客/如何科学上网/picture/VPN2.png",
+    "docs/个人博客/如何科学上网/picture/VPN1.png",
+    "docs/个人博客/如何科学上网/picture",
+    "docs/个人博客/如何科学上网",
+    "docs/assets/logo.png",
     "README.md",
     "docs/个人博客/家庭宽带搭建个人服务器/03-定时更新域名IP解析.md",
     "docs/个人博客/家庭宽带搭建个人服务器/02-家庭宽带申请公网IP.md",
     "docs/个人博客/家庭宽带搭建个人服务器/01-简介.md",
     "docs/个人博客/家庭宽带搭建个人服务器/04-使用frp做内网穿透.md",
-    "docs/个人博客/家庭宽带搭建个人服务器/assets/image-路由器端口映射.png",
-    "docs/个人博客/家庭宽带搭建个人服务器/assets/image-路由器1.png",
-    "docs/个人博客/家庭宽带搭建个人服务器/assets/image-网络架构.png",
-    "docs/个人博客/家庭宽带搭建个人服务器/assets/image-光猫端口映射.png",
-    "docs/个人博客/家庭宽带搭建个人服务器/assets/image-光猫2.png",
-    "docs/个人博客/家庭宽带搭建个人服务器/assets/image-光猫1.png",
-    "docs/个人博客/家庭宽带搭建个人服务器/assets/image-openresty2.png",
-    "docs/个人博客/家庭宽带搭建个人服务器/assets/image-openresty.png",
     "docs/个人博客/家庭宽带搭建个人服务器/assets",
     "docs/个人博客/家庭宽带搭建个人服务器"
   ]
