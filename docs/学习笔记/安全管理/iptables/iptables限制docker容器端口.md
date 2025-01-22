@@ -4,7 +4,7 @@
 	- https://www.cnblogs.com/hukey/p/18320783
 
 ## 参考命令
-- enp26s0f0为公网网卡名称，除了54.183.108.229 112.5.64.253  38.175.45.22 可以访问3000,9289,9090的web服务，其他的都无法直接通过公网访问
+- enp26s0f0为公网网卡名称(不用指定也行)，除了54.183.108.229 112.5.64.253  38.175.45.22 可以访问3000,9289,9090的web服务，其他的都无法直接通过公网访问
 ```
 iptables -I DOCKER-USER -i enp26s0f0 -p tcp -m tcp -m multiport --dports 3000,9289,9090 -j REJECT
 iptables -I DOCKER-USER -i enp26s0f0 -s 54.183.108.229 -p tcp -m tcp -m multiport --dports 3000,9289,9090 -j ACCEPT

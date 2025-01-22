@@ -22,14 +22,7 @@ iptables -t filter -D INPUT -p tcp -m tcp --dport 9289 -j DROP
 iptables -A INPUT -s 183.131.145.0/24 -p tcp -m tcp --dport 22 -j ACCEPT
 ```
 
-- iptables命令配置的防火墙规则默认会在系统下一次重启时失效，如果想让配置的防火墙策略永久生效，还要执行保存命令：
-	- service iptables save
-	- 如果看到类似错误提示（如 `service: command not found`），说明你的系统没有安装 `iptables-services`，你可以先安装它：`yum install iptables-services -y`
-	- 确保 `iptables` 服务启用并运行：
-		- `systemctl enable iptables 
-		- `systemctl start iptables`
-- iptables默认配置文件位置：
-	- /etc/sysconfig/iptables
+- 
 
 - 将一个 `/etc/sysconfig/iptables` 文件中的配置应用到系统中，你可以使用 `iptables-restore` 命令。该命令用于从文件中加载 iptables 规则：
 	- sudo iptables-restore < /etc/sysconfig/iptables
