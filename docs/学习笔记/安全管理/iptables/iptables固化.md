@@ -7,7 +7,7 @@ iptables命令配置的防火墙规则默认会在系统下一次重启时失效
 
 - 确保 `iptables` 服务启用并运行：
 
-	- `systemctl enable iptables
+	- `systemctl enable iptables`
 	
 	- `systemctl start iptables`
 
