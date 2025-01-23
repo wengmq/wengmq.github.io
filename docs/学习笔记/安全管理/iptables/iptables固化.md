@@ -2,12 +2,16 @@
 ## centos下iptables固化
 
 iptables命令配置的防火墙规则默认会在系统下一次重启时失效，如果想让配置的防火墙策略永久生效，还要执行保存命令： `service iptables save`
+
 - 如果看到类似错误提示（如 `service: command not found`），说明你的系统没有安装 `iptables-services`，你可以先安装它：`yum install iptables-services -y`
+
 - 确保 `iptables` 服务启用并运行：
-	- `systemctl enable iptables 
+
+	- `systemctl enable iptables
+	
 	- `systemctl start iptables`
-- centos下的iptables默认配置文件位置：
-	- /etc/sysconfig/iptables
+
+- centos下的iptables默认配置文件位置：/etc/sysconfig/iptables
 
 
 ## ubuntu下iptables固化

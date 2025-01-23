@@ -52,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "固化",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -73,7 +73,8 @@
               "title": "书签"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -162,7 +163,7 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "39a8fac8bfe690c1",
+  "active": "5968e42bc5c4fb24",
   "lastOpenFiles": [
     "docs/学习笔记/安全管理/iptables/assets/Pasted image 20250122185719.png",
     "docs/学习笔记/系统管理/LVM/【实践】- 移除LVM中的SWAP分区和HOME分区.md",
