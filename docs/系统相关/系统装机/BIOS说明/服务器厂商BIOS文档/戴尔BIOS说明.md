@@ -1,0 +1,1 @@
+https://www.dell.com/support/manuals/zh-cn/poweredge-r240/per240_bios_pub/%E7%B3%BB%E7%BB%9F-bios-%E8%AE%BE%E7%BD%AE%E8%AF%A6%E7%BB%86%E4%BF%A1%E6%81%AF?guid=guid-195dbb29-9a85-431c-96c6-c8ad4a973fc2&lang=zh-cn
