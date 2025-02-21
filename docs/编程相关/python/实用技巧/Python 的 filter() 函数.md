@@ -51,7 +51,7 @@ print(list(result))  # 输出 [10, 8]
 
 ---
 
-## 结合`ambda` 表达式
+## 结合`lambda` 表达式
 
 
 ### 核心语法
