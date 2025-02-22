@@ -6,7 +6,7 @@
 
 ## 解包列表或元组 *
 
-```
+```python
 a = [1, 10]
 a = (1, 10)
 print(*a)  # 相当于print(1, 10)
@@ -16,7 +16,7 @@ print(list(range(*a)))  # 相当于print(list(range(1, 10)))
 
 ## 解包字典 **
 
-```
+```python
 def linear(x, k, b=0):
     return k * x + b
 
@@ -28,7 +28,7 @@ print(linear(**a))  # 相当于 print(linear(x=2, k=3))
 
 ## 变量解包
 
-```
+```python
 data = [1, 2, 3, 4, 5]
 first, *middle, last = data
 print(first)

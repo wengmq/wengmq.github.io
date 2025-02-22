@@ -4,7 +4,7 @@ Python 的 `filter()` 函数用于**过滤序列**，保留符合条件的元�
 
 ## 基本语法
 
-```
+```python
 filter(function, iterable)
 ```
 
@@ -19,7 +19,7 @@ filter(function, iterable)
 
 #### 1. 过滤偶数
 
-```
+```python
 numbers = [1, 2, 3, 4, 5, 6]
 result = filter(lambda x: x % 2 == 0, numbers)
 print(list(result))  # 输出 [2, 4, 6]
@@ -29,7 +29,7 @@ print(list(result))  # 输出 [2, 4, 6]
 #### 2. 过滤非空字符串
 
 
-```
+```python
 words = ["hello", "", "world", None, " ", "python"]
 result = filter(None, words)  # 过滤掉空字符串、None（但保留空格" "）
 print(list(result))  # 输出 ['hello', 'world', ' ', 'python']
@@ -39,7 +39,7 @@ print(list(result))  # 输出 ['hello', 'world', ' ', 'python']
 
 #### 3. 自定义过滤函数
 
-```
+```python
 def is_positive(n):
     return n > 0
 
@@ -49,34 +49,9 @@ print(list(result))  # 输出 [10, 8]
 ```
 
 
----
+#### 4. 过滤字典列表中的特定数据
 
-## 结合`lambda` 表达式
-
-
-### 核心语法
-
-
-```
-filter(lambda 参数: 条件表达式, iterable)
-```
-
-- **lambda 参数**: 定义匿名函数，参数为 `iterable` 中的每个元素。
-    
-- **条件表达式**: 返回布尔值的表达式（`True`/`False`），决定元素是否保留。
-
-#### 举例-过滤偶数
-
-```
-numbers = [1, 2, 3, 4, 5, 6]
-even = filter(lambda x: x % 2 == 0, numbers)
-print(list(even))  # 输出 [2, 4, 6]
-
-```
-
-#### 举例-过滤字典列表中的特定数据
-
-```
+```python
 students = [
     {"name": "Alice", "age": 20},
     {"name": "Bob", "age": 17},
@@ -89,6 +64,9 @@ print(list(adults))  # 输出 [{'name': 'Alice', 'age': 20}, {'name': 'Charlie',
 ```
 
 
+---
+
+
 ## 注意事项
 
 1. **返回迭代器**：`filter()` 返回的是迭代器（Python3），需用 `list()`、`tuple()` 等转换为容器类型才能直接查看结果。
@@ -98,9 +76,9 @@ print(list(adults))  # 输出 [{'name': 'Alice', 'age': 20}, {'name': 'Charlie',
 3. **性能优化**：相比 `for` 循环，`filter()` 更简洁，但在复杂逻辑时，列表推导式可能更直观：
     
 
-```
+```python
 # 等效于 filter 的列表推导式
-    [x for x in iterable if condition(x)]
+[x for x in iterable if condition(x)]
 ```
     
 
