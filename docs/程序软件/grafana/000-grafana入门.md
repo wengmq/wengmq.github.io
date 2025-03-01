@@ -11,7 +11,7 @@
     
 - 时间序列类型图表Demo演示: [https://play.grafana.org/d/000000002/influxdb-templated?orgId=1&var-datacenter=America&var-host=All&var-summarize=1m&editPanel=1](https://play.grafana.org/d/000000002/influxdb-templated?orgId=1&var-datacenter=America&var-host=All&var-summarize=1m&editPanel=1)
 
-
+- PromQL 从入门到学废： https://download.flashcat.cloud/promql-learning.pdf
 
 ## 【相关名词】
 
