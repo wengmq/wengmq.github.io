@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "7dee8736297dad3e",
+        "id": "edd7ebfbc0c8b0e8",
         "type": "tabs",
         "children": [
           {
-            "id": "b30c7491d968ba74",
+            "id": "0701295add7d4716",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "docs/系统相关/系统装机/开机流程/系统启动流程.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "系统启动流程"
             }
           }
         ]
@@ -159,8 +163,10 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "3d26cc8b20c3b88e",
+  "active": "0701295add7d4716",
   "lastOpenFiles": [
+    "docs/系统相关/系统装机/开机流程/assets/vbird-linux-basic-4e.pdf",
+    "docs/系统相关/系统装机/开机流程/系统启动流程.md",
     "docs/程序软件/iperf3/iperf3使用.md",
     "docs/程序软件/iperf3/iperf3介绍.md",
     "docs/系统相关/系统装机/系统安装/windows安装.md",
@@ -178,7 +184,6 @@
     "docs/系统相关/安全管理/firewall/firewalld开放某个端口.md",
     "docs/系统相关/系统管理/raid/raid介绍.md",
     "docs/系统相关/系统管理/raid/raid5的原理（数据恢复）.md",
-    "docs/系统相关/系统装机/开机流程/系统启动流程.md",
     "docs/系统相关/系统装机/系统安装/ubuntu安装.md",
     "docs/系统相关/网络管理/ipmi/ipmitool创建一个新用户.md",
     "docs/系统相关/网络管理/ipmi/ipmi常用命令【本机执行】.md",
@@ -187,7 +192,6 @@
     "docs/系统相关/系统管理/安装包管理/centos7更新海外的yum源.md",
     "docs/系统相关/系统装机/硬件选型/计算机组件选型.md",
     "docs/系统相关/系统管理/raid/系统日志.md",
-    "docs/系统相关/系统装机/硬件选型/CPU.md",
     "docs/系统相关/系统装机/硬件选型/assets/Pasted image 20250408162604.png",
     "docs/系统相关/系统装机/硬件选型/assets/Pasted image 20250408162540.png",
     "docs/系统相关/系统装机/硬件选型/assets/Pasted image 20250408162157.png",
@@ -206,7 +210,6 @@
     "docs/系统相关/系统装机/开机流程/assets",
     "docs/系统相关/系统装机/开机流程",
     "docs/编程相关/python/实用技巧",
-    "docs/人工智能/Ollama",
     "未命名.canvas"
   ]
 }
