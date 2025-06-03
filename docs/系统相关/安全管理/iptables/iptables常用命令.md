@@ -25,4 +25,7 @@ iptables -A INPUT -s 183.131.145.0/24 -p tcp -m tcp --dport 22 -j ACCEPT
 - 
 
 - 将一个 `/etc/sysconfig/iptables` 文件中的配置应用到系统中，你可以使用 `iptables-restore` 命令。该命令用于从文件中加载 iptables 规则：
-	- sudo iptables-restore < /etc/sysconfig/iptables
+	```
+	sudo iptables-restore < /etc/sysconfig/iptables
+	```
+	
