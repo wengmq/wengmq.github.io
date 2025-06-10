@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/系统相关/系统装机/开机流程/系统启动流程.md",
+                "file": "docs/编程相关/shell/shell脚本模版/通用的 Shell 脚本模板.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "系统启动流程"
+              "title": "通用的 Shell 脚本模板"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "括号",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 487.5024719238281
+    "width": 322.5024719238281
   },
   "right": {
     "id": "c9d67840af37ea85",
@@ -165,33 +165,38 @@
   },
   "active": "0701295add7d4716",
   "lastOpenFiles": [
-    "docs/系统相关/系统装机/开机流程/assets/vbird-linux-basic-4e.pdf",
+    "docs/编程相关/shell/shell基础/shell传参说明.md",
+    "docs/编程相关/shell/shell基础/shell编程规范.md",
+    "docs/编程相关/shell/shell技巧/shell括号使用.md",
+    "docs/编程相关/shell/shell技巧/shell参数解析.md",
+    "docs/编程相关/shell/shell技巧/日志和回显.md",
+    "docs/编程相关/shell/shell技巧/巧用多行输入.md",
+    "docs/编程相关/shell/shell技巧/获取脚本所在路径.md",
+    "docs/编程相关/shell/shell技巧/简单脚本头样例.md",
+    "docs/编程相关/shell/shell技巧/批量注释.md",
+    "docs/编程相关/shell/shell脚本模版/通用的 Shell 脚本模板.md",
+    "docs/编程相关/shell/shell技巧/巧用main函数.md",
+    "docs/系统相关/系统装机/系统安装/云镜像安装.md",
+    "docs/系统相关/系统装机/系统安装/centos安装.md",
+    "docs/编程相关/shell/shell技巧",
+    "docs/编程相关/shell/shell脚本模版",
+    "docs/编程相关/shell/shell基础/未命名",
+    "docs/编程相关/shell/shell基础",
+    "docs/系统相关/网络管理/ipmi/ipmi常用命令.md",
+    "docs/系统相关/网络管理/ipmi/ipmitool创建一个新用户.md",
+    "docs/系统相关/网络管理/ipmi/ipmi常用命令【本机执行】.md",
+    "docs/系统相关/网络管理/ipmi/ipmitool修改ipmi的ip信息.md",
+    "docs/程序软件/prometheus/prometheus部署.md",
+    "docs/系统相关/系统装机/系统安装/ubuntu安装.md",
+    "docs/系统相关/系统管理/安装包管理/二进制文件制作rpm包.md",
+    "docs/系统相关/系统装机/系统安装/debian安装.md",
     "docs/系统相关/系统装机/开机流程/系统启动流程.md",
+    "docs/系统相关/系统装机/开机流程/assets/vbird-linux-basic-4e.pdf",
     "docs/程序软件/iperf3/iperf3使用.md",
     "docs/程序软件/iperf3/iperf3介绍.md",
     "docs/系统相关/系统装机/系统安装/windows安装.md",
     "docs/系统相关/系统装机/系统安装/未命名",
-    "docs/系统相关/系统装机/系统安装/centos安装.md",
     "docs/系统相关/安全管理/iptables/iptables常用命令.md",
-    "docs/系统相关/安全管理/iptables/iptables固化.md",
-    "docs/系统相关/安全管理/firewall/firewall基础介绍.md",
-    "docs/系统相关/安全管理/iptables/iptable原理.md",
-    "docs/系统相关/系统装机/系统安装/debian安装.md",
-    "docs/系统相关/系统装机/系统安装/pve安装.md",
-    "docs/系统相关/安全管理/iptables/iptables 命令的-m参数.md",
-    "docs/系统相关/安全管理/iptables/iptables-save和iptables-restore.md",
-    "docs/系统相关/安全管理/iptables/iptables限制docker容器端口.md",
-    "docs/系统相关/安全管理/firewall/firewalld开放某个端口.md",
-    "docs/系统相关/系统管理/raid/raid介绍.md",
-    "docs/系统相关/系统管理/raid/raid5的原理（数据恢复）.md",
-    "docs/系统相关/系统装机/系统安装/ubuntu安装.md",
-    "docs/系统相关/网络管理/ipmi/ipmitool创建一个新用户.md",
-    "docs/系统相关/网络管理/ipmi/ipmi常用命令【本机执行】.md",
-    "docs/系统相关/网络管理/ipmi/ipmi常用命令.md",
-    "docs/系统相关/网络管理/ipmi/ipmitool修改ipmi的ip信息.md",
-    "docs/系统相关/系统管理/安装包管理/centos7更新海外的yum源.md",
-    "docs/系统相关/系统装机/硬件选型/计算机组件选型.md",
-    "docs/系统相关/系统管理/raid/系统日志.md",
     "docs/系统相关/系统装机/硬件选型/assets/Pasted image 20250408162604.png",
     "docs/系统相关/系统装机/硬件选型/assets/Pasted image 20250408162540.png",
     "docs/系统相关/系统装机/硬件选型/assets/Pasted image 20250408162157.png",
@@ -206,10 +211,6 @@
     "docs/系统相关/系统管理/raid",
     "docs/系统相关/系统装机/硬件选型/assets",
     "docs/系统相关/系统装机/硬件选型/CPU",
-    "docs/系统相关/系统装机/硬件选型",
-    "docs/系统相关/系统装机/开机流程/assets",
-    "docs/系统相关/系统装机/开机流程",
-    "docs/编程相关/python/实用技巧",
     "未命名.canvas"
   ]
 }

@@ -48,3 +48,14 @@
 
 此时不出意外的话，稍等一会儿，机器就可以使用 ssh 登录上去， 账号密码就是上面设置的
 ![](assets/Pasted%20image%2020240712152059.png)
+
+
+
+## 其他
+- ubuntu mini镜像下载：
+	- ubuntu18:
+		- http://archive.ubuntu.com/ubuntu/dists/bionic/main/installer-amd64/current/images/netboot/mini.iso
+	- ubuntu20：
+		- http://archive.ubuntu.com/ubuntu/dists/focal/main/installer-amd64/current/legacy-images/netboot/mini.iso
+	- ubuntu24：
+		- https://cdimage.ubuntu.com/ubuntu-mini-iso/noble/daily-live/current/noble-mini-iso-amd64.iso

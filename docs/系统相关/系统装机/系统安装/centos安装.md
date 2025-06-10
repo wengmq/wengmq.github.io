@@ -16,17 +16,17 @@
 
 - 配置网络
 ![](assets/Pasted%20image%2020240712150723.png)
-除了unplugged 的网卡，其他随便选择一个网卡进行配置IPV4信息 
+- 除了unplugged 的网卡，其他随便选择一个网卡进行配置IPV4信息 
 
 ![](assets/Pasted%20image%2020240712150738.png)
 
-配置静态IP
+- 配置静态IP
 ![](assets/Pasted%20image%2020240712150905.png)
 
-这边记得要on打开
+- 这边记得要on打开
 ![](assets/Pasted%20image%2020240712150938.png)
 
-网络和引导盘设置好之后就可以点击安装了
+- 网络和引导盘设置好之后就可以点击安装了
 
-设置root用户的账号密码 
+- 设置root用户的账号密码 
 ![](assets/Pasted%20image%2020240712151051.png)
