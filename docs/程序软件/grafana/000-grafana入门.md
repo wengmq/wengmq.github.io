@@ -24,3 +24,10 @@
 	- 每个仪表盘可以支持定义多个变量，变量数据可以来自于其他数据源或者自己手动输入的列表。变量可以在面板中引用，通常可以用于做过滤条件。
 - 面板：参考官方 https://grafana.com/docs/grafana/latest/panels-visualizations/
 	- 即Panels，面板中可以包含多种类型如最常见的折线图、饼图、直方图等
+
+## 【grafana部署】
+
+- docker部署：
+```
+docker run -d -p 3000:3000 -it grafana/grafana
+```
