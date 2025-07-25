@@ -27,7 +27,20 @@
 
 ## 【grafana部署】
 
-- docker部署：
+- ### docker部署：
+	- 账号密码默认（admin/admin）
 ```
 docker run -d -p 3000:3000 -it grafana/grafana
 ```
+
+- ### 本地二进制部署：
+	- 参考地址：[https://grafana.com/grafana/download](https://grafana.com/grafana/download)
+	- 已ubuntu的部署为例：
+	- `systemctl status grafana-server.service` 启动服务默认监听3000端口。
+	- 账号密码默认（admin/admin）
+```bash
+sudo apt-get install -y adduser libfontconfig1 musl
+wget https://dl.grafana.com/enterprise/release/grafana-enterprise_12.1.0_amd64.deb
+sudo dpkg -i grafana-enterprise_12.1.0_amd64.deb
+```
+	

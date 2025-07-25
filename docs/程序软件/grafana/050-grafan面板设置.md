@@ -9,23 +9,33 @@
 ![](assets/Pasted%20image%2020250206165556.png)
 ## grafana配置选项[](https://grafana.com/docs/grafana/latest/panels-visualizations/visualizations/time-series/#configuration-options)
 
-- ### Panel options 
+- ### Panel options （面板选项）
 	- 参考： https://grafana.com/docs/grafana/latest/panels-visualizations/configure-panel-options/
-	- 说明：设备面板的标题和描述等信息。
-	- 这边有个比较高级的用法，例如你有个变量endpoint包含值[server1, server2, server3]，开启Repeat options会生成三个面板。
+	- 说明：
+		- Title：设置面板的的标题，可以在面板中使用`$`引用变量，例如 【CPU用量-$hostname】
+		- Description: 面板的描述或事说明，最好要设置，让其他人知道你这个面板使用的指标的含义
+		- Transparent background：是否要设置背景透明
+		- Panel links：设置你面包要关联的URL地址
+		- Repeat options：
+			- 这个是比较高级的用法，例如你有个变量endpoint包含值[server1, server2, server3]，开启Repeat options，并且设置【Repeat by variable】的值为这个endpoint变量则会生成三个面板。
 	- ![](assets/Pasted%20image%2020250206171442.png)
 
-- ### Configure tooltips
+- ### Configure tooltips （配置工具提示）
 	- 参考： https://grafana.com/docs/grafana/latest/panels-visualizations/configure-tooltips/
-	-  说明：当将光标悬停在可视化上时，Grafana可以显示工具提示。选择工具提示的行为方式。
+	-  说明：当将光标悬停在可视化图表上时，Grafana可以显示工具提示。选择工具提示的行为方式。
 		-  **Single -** 单一-悬停工具提示仅显示一个系列，即您在可视化上悬停的那个系列。
 		- **All -**  全部-悬停工具提示显示可视化中的所有系列。Grafana在工具提示的系列列表中以粗体突出显示您悬停的系列。
 		- **Hidden -** 隐藏-与可视化交互时不显示工具提示。
-		
+		- 还可以设置【悬浮距离】、提示框的宽度等，这些通常按照默认即可
 	- ![](assets/Pasted%20image%2020250206173957.png)
+	- 例如我这边展示多个指标的值，并且按照值的降序排序：
+	- ![](assets/Pasted%20image%2020250725152008.png)
 
-- ### Legend
+- ### Legend （图例）
 	- 参考： https://grafana.com/docs/grafana/latest/panels-visualizations/configure-legend/
+	- 介绍：
+		- 在 Grafana 的图表面板中，**Legend（图例）配置**是用来控制图表下方显示的系列（Series）名称、统计值（如 avg、min、max 等）和样式的重要设置。
+		- 图表下方或右侧显示的数据线或柱状图等的说明文字。Legend它告诉你每条线或每个系列代表什么数据。
 	- 说明：
 		-  Visibility  可见性[](https://grafana.com/docs/grafana/latest/panels-visualizations/configure-legend/#visibility)
 			- 设置是否显示图例。使用开关打开或关闭图例。
@@ -44,7 +54,10 @@
 			- 通过向图例添加系列数据值或计算，可以向可视化添加更多上下文。您可以添加任意数量的值。应用更改后，您可以滚动图例以查看所有值。
 	- ![](assets/Pasted%20image%2020250207140829.png)
 
-- ### Standard options
+	- 举个例子：（tips：这里点击某个指标如Max，可以对这列的数据进行“降序/升序”排序）
+	- ![](assets/Pasted%20image%2020250725152807.png)
+
+- ### Standard options （标准选项）
 	- 参考 https://grafana.com/docs/grafana/latest/panels-visualizations/configure-standard-options/
 	- 说明
 		-  Unit  单位
@@ -61,6 +74,76 @@
 		- Display name  显示名称
 			- 设置所有字段的显示标题。您可以在字段标题中使用变量。
 			- 当显示多个统计数据、字段或系列时，此字段控制每个统计数据中的标题。您可以使用 `${__field.name}` 等表达式在标题中仅使用系列名称或字段名称。
-			- 下表显示了使用各种表达式生成的不同字段名的示例。在这个例子中，有一个名为“Temp”的字段，标签为{“Loc”=“PBI”，“Sensor”=”3“}：
+			- 示例 1：Prometheus 查询
+				- 假设查询是：`rate(node_cpu_seconds_total{mode!="idle"}[5m])`
+				- Prometheus 会返回每个 `instance` 和 `mode` 的序列。你可以在 Display name 中设置：`{{instance}} - {{mode}}`
+				- 显示效果就变成了：
+				- 192.168.0.1:9100 - user
+				- 192.168.0.1:9100 - system
 	- ![](assets/Pasted%20image%2020250207175318.png)
-- ### Axis
+
+- ### Configure value mappings  (配置值映射)
+	- 参考：[https://grafana.com/docs/grafana/latest/panels-visualizations/configure-value-mappings/#configure-value-mappings](https://grafana.com/docs/grafana/latest/panels-visualizations/configure-value-mappings/#configure-value-mappings)
+	- 介绍
+		- 值映射绕过面板编辑器“标准选项”部分中设置的单位格式，如显示的颜色或小数位数。当面板中存在值映射时，Grafana 会在编辑器面板的值映射部分显示它们的摘要。
+		- ![](assets/Pasted%20image%2020250725162449.png)
+		- ![](assets/Pasted%20image%2020250725162621.png)
+	- 说明：
+		- Value：
+			- 值映射将特定值映射到文本和颜色。例如，您可以配置映射，使值 `10` 的所有实例都显示为 Perfection！而不是数字。当您想格式化单个值时，请使用值映射。
+			- ![](assets/Pasted%20image%2020250725162930.png)
+		- Range：
+			- 范围映射将数值范围映射到文本和颜色。例如，如果某个值在某个范围内，则可以配置范围值映射以显示低或高，而不是数字。当您想格式化多个连续值时，请使用范围映射。
+			- ![](assets/Pasted%20image%2020250725162941.png)
+		- Regex：
+			- 正则表达式映射将正则表达式映射到文本和颜色。例如，如果值为 `www.example.com` ，则可以配置正则表达式值映射，以便 Grafana 显示 www 并截断域。当您想格式化正则表达式值的文本和颜色时，请使用正则表达式映射。
+			- ![](assets/Pasted%20image%2020250725162953.png)
+		- Special：
+			- 特殊映射将特殊值（如 `Null` 、 `NaN` （不是数字））和布尔值（如 `true` 和 `false` ）映射到文本和颜色。例如，您可以配置一个特殊的值映射，使 `null` 值显示为 N/a。当您想格式化不常见、布尔值或空值时，请使用特殊映射。
+			- ![](assets/Pasted%20image%2020250725163007.png)
+	- 
+
+- ### Configure thresholds  配置阈值
+	- 参考：[https://grafana.com/docs/grafana/latest/panels-visualizations/configure-thresholds/#configure-thresholds](https://grafana.com/docs/grafana/latest/panels-visualizations/configure-thresholds/#configure-thresholds
+	- 介绍：
+		- 在仪表板中，阈值是您为指标设置的值或限制，当达到或超过该值或限制时，会直观地反映出来。阈值是一种可以根据查询结果有条件地设置可视化样式和颜色的方法。
+	- 说明
+		- threshold value  阈值
+			- 这个数字是触发阈值的值。可以在此字段中设置与阈值关联的颜色。
+			- Base 值表示负无穷大。默认情况下，它被设置为绿色，这通常是“好”的颜色。
+		- thresholds mode  阈值模式
+			- **Absolute**：
+				- 绝对阈值由一个数字定义。例如，在 1 到 150 的范围内为 80。
+			- **Percentage**：
+				- 百分比阈值表示当前值在最大值与最小值之间的相对位置
+		- show thresholds  显示阈值
+			- As lines  作为实线	
+			- As lines (dashed)  作为线条（虚线）
+			- As filled regions  填充区域
+			- As filled regions and lines 填充区域和实线
+			- As filled regions and lines (dashed) 填充区域和线条（虚线）
+		- ![](assets/Pasted%20image%2020250725165703.png)
+		- ![](assets/Pasted%20image%2020250725171854.png)
+
+- ### Configure field overrides （配置字段覆盖）
+	- 参考：[https://grafana.com/docs/grafana/latest/panels-visualizations/configure-overrides/](https://grafana.com/docs/grafana/latest/panels-visualizations/configure-overrides/)
+	- 介绍：
+		- “**Configure field overrides**”（配置字段覆盖）功能允许你对图表中的特定字段（也就是数据系列）**单独进行样式或格式上的自定义配置**，即便其他字段使用的是默认设置。
+		- 例如：图表中有多个网卡的带宽情况（按照网卡区分数据），你想给某个网卡的展示进行单独的设置。
+	- 说明：
+		-  Add override 选择你要“覆盖”的字段，支持以下几种匹配方式：
+			- **By name**：按字段名精确匹配
+			- **By regex**：使用正则匹配字段名
+			- **By field type**：按字段类型（number, string, etc.）
+			- **By ID**：根据字段的唯一 ID 匹配（通常用于更高级的用法）
+		- Add override property 选择你要设置的具体属性（这里有很多，可以根据你的需要进行特殊配置）
+			- Display name	设置该字段在图例/表格中显示的名称
+			- Unit	设置字段的单位，例如 bytes, bps, ms, %
+			- Min / Max	设定该字段的最小/最大值
+			- Decimals	控制小数点位数
+			- Color scheme / color	为该字段设定颜色
+			- Thresholds	设置警戒线（配合颜色/图形高亮）
+			- No value	没有值时显示什么
+			- Custom	针对特定图表类型的自定义属性，如“线型”、“折点”、“区域填充”等
+		- 例如这里给 Busy User这个组的数据进行特殊配置，让其线的颜色变成红色
+			- ![](assets/Pasted%20image%2020250725175750.png)

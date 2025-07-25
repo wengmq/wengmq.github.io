@@ -1,7 +1,8 @@
-- 官方说明：
-	- https://grafana.com/docs/grafana/latest/dashboards/variables/add-template-variables/
 
 ## grafana变量简述
+
+- 官方说明：
+	- https://grafana.com/docs/grafana/latest/dashboards/variables/add-template-variables/
 
 - 变量是值的占位符。您可以在度量查询和面板标题中使用变量。因此，当您使用仪表板顶部的下拉菜单更改值时，面板的指标查询将更改以反映新值。
 - 变量允许您创建更具交互性和动态性的仪表板。您可以在度量查询中使用变量代替服务器、应用程序和传感器名称等硬编码。变量显示为仪表板顶部的下拉列表。这些下拉菜单使更改仪表板中显示的数据变得容易。

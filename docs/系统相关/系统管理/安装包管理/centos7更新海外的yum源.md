@@ -21,7 +21,9 @@
 
 编辑 `CentOS-Base.repo` 文件：
 
-`sudo vi /etc/yum.repos.d/CentOS-Base.repo`
+```
+sudo vi /etc/yum.repos.d/CentOS-Base.repo
+```
 
 将内容替换为以下内容（适用于 CentOS 7）：
 
@@ -63,15 +65,24 @@ gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-7
 在修改 `yum` 源后，清除 `yum` 缓存并尝试更新：
 
 
-`sudo yum clean all sudo yum makecache sudo yum update -y`
+```
+sudo yum clean all 
+sudo yum makecache 
+sudo yum update -y
+```
 
 ### 4. 验证
 
 你可以通过以下命令验证是否成功使用了新的海外源：
 
-`yum repolist`
+```
+yum repolist
+```
 
 如果一切正常，你现在应该能够从海外的镜像源获取和安装软件包了。
 
 
-一键更新命令：curl -o /etc/yum.repos.d/CentOS-Base.repo https://mirrors.aliyun.com/repo/Centos-7.repo;yum clean all;yum makecache
+一键更新命令：
+```bash
+curl -o /etc/yum.repos.d/CentOS-Base.repo https://mirrors.aliyun.com/repo/Centos-7.repo;yum clean all;yum makecache
+```
