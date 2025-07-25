@@ -11,14 +11,12 @@
             "id": "0701295add7d4716",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "docs/index.md",
-                "mode": "source",
-                "source": false
+                "file": "docs/assets/logo.png"
               },
-              "icon": "lucide-file",
-              "title": "index"
+              "icon": "lucide-image",
+              "title": "logo"
             }
           }
         ]
@@ -165,9 +163,11 @@
   },
   "active": "0701295add7d4716",
   "lastOpenFiles": [
+    "docs/assets/index2.png",
+    "docs/assets/logo.png",
+    "docs/index.md",
     "README.md",
     "docs/程序软件/grafana/050-grafan面板设置.md",
-    "docs/assets/index2.png",
     "docs/程序软件/grafana/assets/Pasted image 20250725175758.png",
     "docs/程序软件/grafana/assets/Pasted image 20250725175750.png",
     "docs/程序软件/grafana/assets/Pasted image 20250725171854.png",
@@ -208,8 +208,6 @@
     "docs/系统相关/安全管理/开源协议/assets",
     "docs/系统相关/系统装机/硬件选型/CPU.md",
     "docs/系统相关/安全管理/开源协议",
-    "docs/系统相关/安全管理/firewall/firewalld开放某个端口.md",
-    "docs/系统相关/安全管理/firewall/firewall基础介绍.md",
     "未命名.canvas",
     "docs/程序软件/code-server"
   ]
