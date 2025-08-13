@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/系统相关/网络管理/other/debian11修改网卡名称.md",
+                "file": "docs/程序软件/数据库相关/metabase/metabase官网.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "debian11修改网卡名称"
+              "title": "metabase官网"
             }
           }
         ]
@@ -163,13 +163,20 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "5180ceb975dca64d",
+  "active": "3d26cc8b20c3b88e",
   "lastOpenFiles": [
+    "docs/程序软件/其他工具",
+    "docs/程序软件/自动化工具",
+    "未命名",
+    "docs/程序软件/数据库相关",
+    "docs/程序软件/监控相关/n9e/n9e/n9e部署.md",
+    "docs/程序软件/云原生相关",
+    "docs/程序软件/监控相关",
+    "docs/系统相关/网络管理/other/debian11修改网卡名称.md",
     "docs/系统相关/网络管理/other/assets/Pasted image 20250813111507.png",
     "docs/系统相关/网络管理/other/assets/Pasted image 20250813110320.png",
     "docs/系统相关/网络管理/other/assets",
     "docs/系统相关/网络管理/ipmi/ipmitool修改ipmi的ip信息.md",
-    "docs/系统相关/网络管理/other/debian11修改网卡名称.md",
     "docs/系统相关/网络管理/other",
     "docs/系统相关/网络管理/ipmi/ipmitool创建一个新用户.md",
     "docs/系统相关/网络管理/ipmi/ipmi常用命令【本机执行】.md",
@@ -192,25 +199,18 @@
     "docs/assets/index1.png",
     "docs/index.md",
     "README.md",
-    "docs/程序软件/grafana/050-grafan面板设置.md",
-    "docs/程序软件/grafana/assets/Pasted image 20250725175758.png",
-    "docs/程序软件/grafana/assets/Pasted image 20250725175750.png",
-    "docs/程序软件/grafana/assets/Pasted image 20250725171854.png",
-    "docs/程序软件/grafana/assets/Pasted image 20250725165703.png",
-    "docs/程序软件/grafana/assets/Pasted image 20250725152807.png",
-    "docs/程序软件/grafana/assets/Pasted image 20250725152008.png",
-    "docs/程序软件/grafana/000-grafana入门.md",
-    "未命名",
-    "docs/程序软件/grafana/040-grafana变量设置.md",
-    "docs/程序软件/grafana/030-grafana仪表盘导入.md",
-    "docs/程序软件/grafana/020-grafan仪表盘创建.md",
-    "docs/程序软件/prometheus/node_export/assets",
-    "docs/程序软件/prometheus/node_export",
-    "docs/程序软件/n9e/categraf",
-    "docs/程序软件/n9e/n9e",
-    "docs/程序软件/n9e",
-    "docs/系统相关/网络管理/switch",
-    "docs/系统相关/安全管理/开源协议/assets",
+    "docs/程序软件/监控相关/grafana/050-grafan面板设置.md",
+    "docs/程序软件/监控相关/grafana/assets/Pasted image 20250725175758.png",
+    "docs/程序软件/监控相关/grafana/assets/Pasted image 20250725175750.png",
+    "docs/程序软件/监控相关/grafana/assets/Pasted image 20250725171854.png",
+    "docs/程序软件/监控相关/grafana/assets/Pasted image 20250725165703.png",
+    "docs/程序软件/监控相关/grafana/assets/Pasted image 20250725152807.png",
+    "docs/程序软件/监控相关/grafana/000-grafana入门.md",
+    "docs/程序软件/监控相关/grafana/040-grafana变量设置.md",
+    "docs/程序软件/监控相关/grafana/030-grafana仪表盘导入.md",
+    "docs/程序软件/监控相关/prometheus/node_export/assets",
+    "docs/程序软件/监控相关/prometheus/node_export",
+    "docs/程序软件/监控相关/n9e/categraf",
     "未命名.canvas"
   ]
 }
