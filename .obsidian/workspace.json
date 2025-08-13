@@ -4,19 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "edd7ebfbc0c8b0e8",
+        "id": "0b316e80b1a82e05",
         "type": "tabs",
         "children": [
           {
-            "id": "0701295add7d4716",
+            "id": "5180ceb975dca64d",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "docs/assets/logo.png"
+                "file": "docs/系统相关/网络管理/other/debian11修改网卡名称.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "logo"
+              "icon": "lucide-file",
+              "title": "debian11修改网卡名称"
             }
           }
         ]
@@ -51,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "ipmi",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -76,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 328.51103591918945
+    "width": 396.50390243530273
   },
   "right": {
     "id": "c9d67840af37ea85",
@@ -161,10 +163,33 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "0701295add7d4716",
+  "active": "5180ceb975dca64d",
   "lastOpenFiles": [
-    "docs/assets/index2.png",
+    "docs/系统相关/网络管理/other/assets/Pasted image 20250813111507.png",
+    "docs/系统相关/网络管理/other/assets/Pasted image 20250813110320.png",
+    "docs/系统相关/网络管理/other/assets",
+    "docs/系统相关/网络管理/ipmi/ipmitool修改ipmi的ip信息.md",
+    "docs/系统相关/网络管理/other/debian11修改网卡名称.md",
+    "docs/系统相关/网络管理/other",
+    "docs/系统相关/网络管理/ipmi/ipmitool创建一个新用户.md",
+    "docs/系统相关/网络管理/ipmi/ipmi常用命令【本机执行】.md",
+    "docs/系统相关/网络管理/ipmi/ipmi常用命令.md",
+    "docs/系统相关/系统装机/系统安装/centos安装.md",
+    "docs/系统相关/系统装机/系统安装/Rocky安装.md",
+    "docs/系统相关/网络管理/NetworkManager/000-NetworkManager官方说明.md",
+    "docs/系统相关/网络管理/NetworkManager/nmcli命令/nmcli更新网络配置说明.md",
+    "docs/系统相关/网络管理/NetworkManager/nmcli命令/nmcli常用命令.md",
+    "docs/系统相关/网络管理/NetworkManager/010-network-scripts和NetworkManager.md",
+    "docs/系统相关/网络管理/network/010-centos7配置IPV4.md",
+    "docs/系统相关/网络管理/netplan/000-netplan说明.md",
+    "docs/系统相关/网络管理/network/000-network常用命令.md",
+    "docs/系统相关/网络管理/network/030-双网卡bond后做双vlan.md",
+    "docs/系统相关/网络管理/network/020-IPV6配置.md",
+    "docs/系统相关/网络管理/netplan/010-netplan常用命令.md",
+    "docs/系统相关/网络管理/netplan/020-netplan单网卡配置两个VLAN.md",
     "docs/assets/logo.png",
+    "docs/assets/index2.png",
+    "docs/assets/index1.png",
     "docs/index.md",
     "README.md",
     "docs/程序软件/grafana/050-grafan面板设置.md",
@@ -175,40 +200,17 @@
     "docs/程序软件/grafana/assets/Pasted image 20250725152807.png",
     "docs/程序软件/grafana/assets/Pasted image 20250725152008.png",
     "docs/程序软件/grafana/000-grafana入门.md",
-    "docs/程序软件/grafana/assets/Pasted image 20250206165556.png",
-    "docs/程序软件/grafana/assets/Pasted image 20250725163007.png",
-    "docs/程序软件/grafana/assets/Pasted image 20250725162953.png",
     "未命名",
     "docs/程序软件/grafana/040-grafana变量设置.md",
     "docs/程序软件/grafana/030-grafana仪表盘导入.md",
     "docs/程序软件/grafana/020-grafan仪表盘创建.md",
-    "docs/程序软件/grafana/010-grafana仪表盘概览.md",
-    "docs/程序软件/prometheus/prometheus部署.md",
-    "docs/程序软件/prometheus/p8s常用api命令.md",
-    "docs/程序软件/prometheus/node_export/040-NodeExporter常用监控指标.md",
-    "docs/程序软件/prometheus/metric数据格式.md",
-    "docs/程序软件/prometheus/ipmi_export.md",
-    "docs/程序软件/prometheus/node_export/030-grafana导入node_export仪表盘.md",
-    "docs/程序软件/prometheus/未命名.md",
-    "docs/程序软件/prometheus/node_export/020-p8s配置采集node_export.md",
-    "docs/程序软件/prometheus/node_export/010-node_export安装.md",
     "docs/程序软件/prometheus/node_export/assets",
     "docs/程序软件/prometheus/node_export",
-    "docs/程序软件/n9e/n9e/n9e部署.md",
     "docs/程序软件/n9e/categraf",
     "docs/程序软件/n9e/n9e",
     "docs/程序软件/n9e",
-    "docs/系统相关/安全管理/开源协议/开源协议说明.md",
-    "docs/系统相关/网络管理/network/双网卡bond后做双vlan.md",
-    "docs/系统相关/系统装机/系统安装/centos安装.md",
-    "docs/系统相关/系统管理/安装包管理/centos7更新海外的yum源.md",
-    "docs/系统相关/网络管理/switch/交换机的三种主要端口模式.md",
-    "docs/系统相关/网络管理/switch/什么是vlan.md",
     "docs/系统相关/网络管理/switch",
     "docs/系统相关/安全管理/开源协议/assets",
-    "docs/系统相关/系统装机/硬件选型/CPU.md",
-    "docs/系统相关/安全管理/开源协议",
-    "未命名.canvas",
-    "docs/程序软件/code-server"
+    "未命名.canvas"
   ]
 }
