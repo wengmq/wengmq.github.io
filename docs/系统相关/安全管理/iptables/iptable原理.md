@@ -395,11 +395,11 @@ iptables: linux 下应用层防火墙工具
 
 iptables 5链: 对应 Hook point netfilter: linux 操作系统核心层内部的一个数据包处理模块 Hook point: 数据包在 netfilter 中的挂载点; `PRE_ROUTING / INPUT / OUTPUT / FORWARD / POST_ROUTING`
 
-iptables & netfilter ![](http://7xq89b.com1.z0.glb.clouddn.com/netfilter&iptables.jpg)
+iptables & netfilter 
 
-iptables 4表5链 ![](http://7xq89b.com1.z0.glb.clouddn.com/iptables-data-stream.jpg)
+iptables 4表5链 
 
-iptables rules ![](http://7xq89b.com1.z0.glb.clouddn.com/iptables-rules.jpg)
+iptables rules 
 
 - 4表
 

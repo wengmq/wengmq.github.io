@@ -4,24 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "0b316e80b1a82e05",
+        "id": "21885ff98ffcc90d",
         "type": "tabs",
         "children": [
           {
-            "id": "5180ceb975dca64d",
+            "id": "725aad9a0a7a4d0e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/程序软件/数据库相关/metabase/metabase官网.md",
+                "file": "docs/随心记/人工智能探索/Ollama/deepseek本地部署.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "metabase官网"
+              "title": "deepseek本地部署"
+            }
+          },
+          {
+            "id": "6cb332c0f5d8c3da",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/系统相关/系统装机/硬件选型/030-内存.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "030-内存"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -53,7 +68,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "ipmi",
+                "query": "journalctl",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,7 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 396.50390243530273
+    "width": 272.5
   },
   "right": {
     "id": "c9d67840af37ea85",
@@ -155,6 +170,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:创建新数据库": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
@@ -163,54 +179,54 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "3d26cc8b20c3b88e",
+  "active": "6cb332c0f5d8c3da",
   "lastOpenFiles": [
-    "docs/程序软件/其他工具",
-    "docs/程序软件/自动化工具",
-    "未命名",
-    "docs/程序软件/数据库相关",
-    "docs/程序软件/监控相关/n9e/n9e/n9e部署.md",
-    "docs/程序软件/云原生相关",
-    "docs/程序软件/监控相关",
-    "docs/系统相关/网络管理/other/debian11修改网卡名称.md",
-    "docs/系统相关/网络管理/other/assets/Pasted image 20250813111507.png",
-    "docs/系统相关/网络管理/other/assets/Pasted image 20250813110320.png",
-    "docs/系统相关/网络管理/other/assets",
-    "docs/系统相关/网络管理/ipmi/ipmitool修改ipmi的ip信息.md",
-    "docs/系统相关/网络管理/other",
-    "docs/系统相关/网络管理/ipmi/ipmitool创建一个新用户.md",
-    "docs/系统相关/网络管理/ipmi/ipmi常用命令【本机执行】.md",
-    "docs/系统相关/网络管理/ipmi/ipmi常用命令.md",
-    "docs/系统相关/系统装机/系统安装/centos安装.md",
-    "docs/系统相关/系统装机/系统安装/Rocky安装.md",
-    "docs/系统相关/网络管理/NetworkManager/000-NetworkManager官方说明.md",
-    "docs/系统相关/网络管理/NetworkManager/nmcli命令/nmcli更新网络配置说明.md",
-    "docs/系统相关/网络管理/NetworkManager/nmcli命令/nmcli常用命令.md",
-    "docs/系统相关/网络管理/NetworkManager/010-network-scripts和NetworkManager.md",
-    "docs/系统相关/网络管理/network/010-centos7配置IPV4.md",
-    "docs/系统相关/网络管理/netplan/000-netplan说明.md",
-    "docs/系统相关/网络管理/network/000-network常用命令.md",
-    "docs/系统相关/网络管理/network/030-双网卡bond后做双vlan.md",
-    "docs/系统相关/网络管理/network/020-IPV6配置.md",
-    "docs/系统相关/网络管理/netplan/010-netplan常用命令.md",
-    "docs/系统相关/网络管理/netplan/020-netplan单网卡配置两个VLAN.md",
-    "docs/assets/logo.png",
-    "docs/assets/index2.png",
-    "docs/assets/index1.png",
-    "docs/index.md",
-    "README.md",
-    "docs/程序软件/监控相关/grafana/050-grafan面板设置.md",
-    "docs/程序软件/监控相关/grafana/assets/Pasted image 20250725175758.png",
-    "docs/程序软件/监控相关/grafana/assets/Pasted image 20250725175750.png",
-    "docs/程序软件/监控相关/grafana/assets/Pasted image 20250725171854.png",
-    "docs/程序软件/监控相关/grafana/assets/Pasted image 20250725165703.png",
-    "docs/程序软件/监控相关/grafana/assets/Pasted image 20250725152807.png",
-    "docs/程序软件/监控相关/grafana/000-grafana入门.md",
-    "docs/程序软件/监控相关/grafana/040-grafana变量设置.md",
-    "docs/程序软件/监控相关/grafana/030-grafana仪表盘导入.md",
-    "docs/程序软件/监控相关/prometheus/node_export/assets",
-    "docs/程序软件/监控相关/prometheus/node_export",
-    "docs/程序软件/监控相关/n9e/categraf",
+    "docs/系统相关/系统装机/硬件选型/020-显卡.md",
+    "docs/系统相关/系统装机/硬件选型/010-CPU.md",
+    "docs/程序软件/监控相关/prometheus/010-prometheus部署.md",
+    "docs/随心记/拍照摄影/人像构图/人像构图原则.md",
+    "docs/随心记/拍照摄影/人像构图/人像拍照引导话术.md",
+    "docs/随心记/拍照摄影/人像构图/assets/22691aba694e5b92bd4879a0a87924d0.jpg",
+    "docs/随心记/拍照摄影/人像构图/assets/d276dcf7d634817320e630bd007c3da8.jpg",
+    "docs/随心记/拍照摄影/人像构图/assets/cf4c3134529582e76b6fef688f3249cb.jpg",
+    "docs/随心记/拍照摄影/人像构图/assets/65b51bb4574186c3b5de80abaf67ca82.jpg",
+    "docs/随心记/拍照摄影/人像构图/assets/e21aebad3adc25dc78e8f2ab7ac043f5.jpg",
+    "docs/随心记/拍照摄影/人像构图/assets/ef6f8278a95752c70c79bef80153b1fb.jpg",
+    "docs/系统相关/系统管理/系统日志.md",
+    "docs/随心记/拍照摄影/拍照知识/assets/Pasted image 20251114143045.png",
+    "docs/随心记/拍照摄影/拍照知识/assets/Pasted image 20251114143031.png",
+    "docs/随心记/拍照摄影/拍照知识/assets/Pasted image 20251114143020.png",
+    "docs/随心记/拍照摄影/拍照知识/assets/Pasted image 20251114143003.png",
+    "docs/随心记/拍照摄影/拍照知识/assets",
+    "docs/随心记/人工智能探索/MCP/MCP快速入门.md",
+    "docs/随心记/拍照摄影/拍照知识/对焦方式.md",
+    "docs/随心记/拍照摄影/拍照知识",
+    "docs/随心记/拍照摄影/未命名.md",
+    "docs/程序软件/监控相关/prometheus/040-PromQL操作符.md",
+    "docs/随心记/人工智能探索/MCP",
+    "docs/程序软件/监控相关/prometheus/050-向量之间的操作.md",
+    "docs/程序软件/监控相关/prometheus/030-metric数据格式.md",
+    "docs/程序软件/监控相关/prometheus/020-p8s常用api命令.md",
+    "docs/随心记/拍照摄影/人像拍照姿势/男生-双人.md",
+    "docs/随心记/拍照摄影/人像拍照姿势/男生-单人.md",
+    "docs/随心记/拍照摄影/人像拍照姿势/多人-合照.md",
+    "docs/随心记/拍照摄影/人像拍照姿势/女生-双人.md",
+    "docs/随心记/拍照摄影/人像拍照姿势/女生-单人.md",
+    "docs/随心记/拍照摄影/人像拍照姿势/男女-情侣.md",
+    "docs/系统相关/安全管理/iptables/iptables语法格式.md",
+    "docs/系统相关/安全管理/iptables/iptable原理.md",
+    "docs/系统相关/安全管理/iptables/iptables常用命令.md",
+    "docs/系统相关/安全管理/iptables/iptables固化.md",
+    "docs/系统相关/安全管理/iptables/iptables-save和iptables-restore.md",
+    "docs/系统相关/安全管理/iptables/iptables 命令的-m参数.md",
+    "docs/随心记/拍照摄影/人像拍照姿势/assets",
+    "docs/随心记/拍照摄影/人像构图/assets",
+    "docs/系统相关/系统管理/LVM/001-LVM基本原理和常用命令.md",
+    "docs/随心记/拍照摄影/人像构图",
+    "docs/随心记/拍照摄影/人像拍照姿势/未命名",
+    "docs/随心记/拍照摄影/人像拍照姿势/女生-单人",
+    "docs/随心记/拍照摄影/人像拍照姿势",
+    "docs/随心记/拍照摄影",
     "未命名.canvas"
   ]
 }

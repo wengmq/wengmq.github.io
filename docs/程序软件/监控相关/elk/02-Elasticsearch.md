@@ -1,0 +1,2 @@
+- Elasticsearch中文文档
+	- https://learnku.com/docs/elasticsearch73/7.3/data-in-documents-and-indices/6446

@@ -5,25 +5,25 @@
 
 ## **常用匹配模块**
 
-|模块名称|描述|
-|---|---|
-|`state`|匹配数据包的连接状态 (`NEW`, `ESTABLISHED`, `RELATED`, `INVALID`)|
-|`conntrack`|更强大的连接状态跟踪模块，支持更多细节控制 (替代 `state`)|
-|`multiport`|允许一次匹配多个端口|
-|`limit`|限制匹配的频率，通常用于防止 DoS 攻击|
-|`mac`|匹配基于 MAC 地址的数据包|
-|`iprange`|匹配 IP 地址范围|
-|`time`|匹配特定时间段的数据包|
-|`comment`|添加注释，便于管理和查看规则|
-|`owner`|匹配本地进程用户、组、PID (仅 OUTPUT 链有效)|
-|`tos`|匹配 Type of Service (服务类型)|
-|`length`|匹配数据包长度|
-|`tcp`|匹配 TCP 协议特定字段|
-|`udp`|匹配 UDP 协议特定字段|
-|`icmp`|匹配 ICMP 协议特定字段|
-|`recent`|匹配最近访问的 IP，支持白名单和黑名单|
-|`mark`|匹配数据包标记（通常用于流量整形和 QoS）|
-|`hashlimit`|基于哈希的频率限制，更细粒度的流量控制|
+| 模块名称        | 描述                                                      |
+| ----------- | ------------------------------------------------------- |
+| `state`     | 匹配数据包的连接状态 (`NEW`, `ESTABLISHED`, `RELATED`, `INVALID`) |
+| `conntrack` | 更强大的连接状态跟踪模块，支持更多细节控制 (替代 `state`)                      |
+| `multiport` | 允许一次匹配多个端口                                              |
+| `limit`     | 限制匹配的频率，通常用于防止 DoS 攻击                                   |
+| `mac`       | 匹配基于 MAC 地址的数据包                                         |
+| `iprange`   | 匹配 IP 地址范围                                              |
+| `time`      | 匹配特定时间段的数据包                                             |
+| `comment`   | 添加注释，便于管理和查看规则                                          |
+| `owner`     | 匹配本地进程用户、组、PID (仅 OUTPUT 链有效)                           |
+| `tos`       | 匹配 Type of Service (服务类型)                               |
+| `length`    | 匹配数据包长度                                                 |
+| `tcp`       | 匹配 TCP 协议特定字段                                           |
+| `udp`       | 匹配 UDP 协议特定字段                                           |
+| `icmp`      | 匹配 ICMP 协议特定字段                                          |
+| `recent`    | 匹配最近访问的 IP，支持白名单和黑名单                                    |
+| `mark`      | 匹配数据包标记（通常用于流量整形和 QoS）                                  |
+| `hashlimit` | 基于哈希的频率限制，更细粒度的流量控制                                     |
 
 ---
 

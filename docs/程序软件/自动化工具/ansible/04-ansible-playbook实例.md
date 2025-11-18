@@ -23,8 +23,6 @@
     - 47.102.98.58
   gather_facts: False
   become: True
-
-  become: yes
   tasks:
     - name: "deploy_aresagent"
       shell: | 
