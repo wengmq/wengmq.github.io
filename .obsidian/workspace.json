@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/随心记/人工智能探索/Ollama/deepseek本地部署.md",
+                "file": "docs/系统相关/网络管理/switch/什么是vlan.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "deepseek本地部署"
+              "title": "什么是vlan"
             }
           },
           {
@@ -27,16 +27,29 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/系统相关/系统装机/硬件选型/030-内存.md",
+                "file": "docs/系统相关/网络管理/机器网络配置调整/centos/040-配置bond.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "030-内存"
+              "title": "040-配置bond"
+            }
+          },
+          {
+            "id": "96398dc19c171e68",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/随心记/人工智能探索/MCP/020-python MCP 框架.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "020-python MCP 框架"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -68,7 +81,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "journalctl",
+                "query": "vlan",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -93,7 +106,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 272.5
+    "width": 376.5
   },
   "right": {
     "id": "c9d67840af37ea85",
@@ -179,54 +192,54 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "6cb332c0f5d8c3da",
+  "active": "725aad9a0a7a4d0e",
   "lastOpenFiles": [
-    "docs/系统相关/系统装机/硬件选型/020-显卡.md",
-    "docs/系统相关/系统装机/硬件选型/010-CPU.md",
-    "docs/程序软件/监控相关/prometheus/010-prometheus部署.md",
-    "docs/随心记/拍照摄影/人像构图/人像构图原则.md",
-    "docs/随心记/拍照摄影/人像构图/人像拍照引导话术.md",
-    "docs/随心记/拍照摄影/人像构图/assets/22691aba694e5b92bd4879a0a87924d0.jpg",
-    "docs/随心记/拍照摄影/人像构图/assets/d276dcf7d634817320e630bd007c3da8.jpg",
-    "docs/随心记/拍照摄影/人像构图/assets/cf4c3134529582e76b6fef688f3249cb.jpg",
-    "docs/随心记/拍照摄影/人像构图/assets/65b51bb4574186c3b5de80abaf67ca82.jpg",
-    "docs/随心记/拍照摄影/人像构图/assets/e21aebad3adc25dc78e8f2ab7ac043f5.jpg",
-    "docs/随心记/拍照摄影/人像构图/assets/ef6f8278a95752c70c79bef80153b1fb.jpg",
+    "docs/系统相关/网络管理/switch/交换机的三种主要端口模式.md",
+    "docs/程序软件/自动化工具/ansible/05-ansbible配置文件实例.md",
+    "docs/程序软件/自动化工具/ansible/04-ansible-playbook实例.md",
+    "docs/程序软件/自动化工具/ansible/03-ansible常用命令.md",
+    "docs/程序软件/自动化工具/ansible/01-ansible资料.md",
+    "docs/系统相关/系统装机/硬件选型/060-显示器.md",
+    "docs/系统相关/系统装机/硬件选型/000-计算机组件选型.md",
+    "docs/随心记/人工智能探索/MCP/010-MCP快速实践.md",
+    "docs/随心记/人工智能探索/MCP/000-什么是MCP.md",
+    "docs/随心记/人工智能探索/MCP/020-python MCP 框架.md",
+    "docs/随心记/人工智能探索/Ollama/deepseek本地部署.md",
+    "docs/系统相关/网络管理/机器网络配置调整/centos/010-centos7配置IPV4.md",
+    "docs/系统相关/网络管理/机器网络配置调整/rocky/010-network-scripts和NetworkManager.md",
+    "docs/系统相关/网络管理/机器网络配置调整/rocky/000-NetworkManager官方说明.md",
     "docs/系统相关/系统管理/系统日志.md",
-    "docs/随心记/拍照摄影/拍照知识/assets/Pasted image 20251114143045.png",
-    "docs/随心记/拍照摄影/拍照知识/assets/Pasted image 20251114143031.png",
-    "docs/随心记/拍照摄影/拍照知识/assets/Pasted image 20251114143020.png",
-    "docs/随心记/拍照摄影/拍照知识/assets/Pasted image 20251114143003.png",
+    "docs/编程相关/python/实用技巧/Python的异步操作.md",
+    "docs/程序软件/其他工具/code-server/centos7安装code-server服务.md",
+    "docs/程序软件/监控相关/grafana/000-grafana入门.md",
+    "docs/随心记/人工智能探索/MCP/assets/Pasted image 20251219153335.png",
+    "docs/随心记/人工智能探索/MCP/assets/Pasted image 20251218202918.png",
+    "docs/随心记/人工智能探索/MCP/assets/Pasted image 20251218202759.png",
+    "docs/随心记/人工智能探索/MCP/assets/Pasted image 20251218202319.png",
+    "docs/随心记/人工智能探索/MCP/assets/Pasted image 20251218173358.png",
+    "docs/随心记/人工智能探索/MCP/assets/Pasted image 20251218162411.png",
+    "docs/随心记/人工智能探索/MCP/assets/Pasted image 20251218155534.png",
+    "docs/随心记/人工智能探索/MCP/assets/Pasted image 20251218161502.png",
+    "docs/随心记/人工智能探索/MCP/assets/Pasted image 20251218155401.png",
+    "docs/随心记/人工智能探索/MCP/assets/Pasted image 20251218144526.png",
+    "docs/随心记/人工智能探索/MCP/assets",
+    "docs/系统相关/网络管理/机器网络配置调整/centos/040-配置bond.md",
+    "docs/系统相关/网络管理/机器网络配置调整/centos/020-IPV6配置.md",
+    "docs/系统相关/网络管理/机器网络配置调整/centos/000-network常用命令.md",
+    "docs/系统相关/网络管理/机器网络配置调整/centos/030-双网卡bond后做双vlan.md",
+    "docs/系统相关/系统装机/系统安装/Oracle安装.md",
+    "docs/系统相关/系统管理/iostat.md",
+    "docs/系统相关/系统装机/硬件选型/030-内存.md",
+    "docs/系统相关/系统装机/硬件选型/020-显卡.md",
     "docs/随心记/拍照摄影/拍照知识/assets",
-    "docs/随心记/人工智能探索/MCP/MCP快速入门.md",
-    "docs/随心记/拍照摄影/拍照知识/对焦方式.md",
     "docs/随心记/拍照摄影/拍照知识",
-    "docs/随心记/拍照摄影/未命名.md",
-    "docs/程序软件/监控相关/prometheus/040-PromQL操作符.md",
     "docs/随心记/人工智能探索/MCP",
-    "docs/程序软件/监控相关/prometheus/050-向量之间的操作.md",
-    "docs/程序软件/监控相关/prometheus/030-metric数据格式.md",
-    "docs/程序软件/监控相关/prometheus/020-p8s常用api命令.md",
-    "docs/随心记/拍照摄影/人像拍照姿势/男生-双人.md",
-    "docs/随心记/拍照摄影/人像拍照姿势/男生-单人.md",
-    "docs/随心记/拍照摄影/人像拍照姿势/多人-合照.md",
-    "docs/随心记/拍照摄影/人像拍照姿势/女生-双人.md",
-    "docs/随心记/拍照摄影/人像拍照姿势/女生-单人.md",
-    "docs/随心记/拍照摄影/人像拍照姿势/男女-情侣.md",
-    "docs/系统相关/安全管理/iptables/iptables语法格式.md",
-    "docs/系统相关/安全管理/iptables/iptable原理.md",
-    "docs/系统相关/安全管理/iptables/iptables常用命令.md",
-    "docs/系统相关/安全管理/iptables/iptables固化.md",
-    "docs/系统相关/安全管理/iptables/iptables-save和iptables-restore.md",
-    "docs/系统相关/安全管理/iptables/iptables 命令的-m参数.md",
     "docs/随心记/拍照摄影/人像拍照姿势/assets",
     "docs/随心记/拍照摄影/人像构图/assets",
-    "docs/系统相关/系统管理/LVM/001-LVM基本原理和常用命令.md",
     "docs/随心记/拍照摄影/人像构图",
     "docs/随心记/拍照摄影/人像拍照姿势/未命名",
     "docs/随心记/拍照摄影/人像拍照姿势/女生-单人",
     "docs/随心记/拍照摄影/人像拍照姿势",
-    "docs/随心记/拍照摄影",
     "未命名.canvas"
   ]
 }
