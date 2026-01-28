@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/程序软件/云原生相关/pve/qm命令使用.md",
+                "file": "docs/index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "qm命令使用"
+              "title": "index"
             }
           },
           {
@@ -194,8 +194,9 @@
   },
   "active": "725aad9a0a7a4d0e",
   "lastOpenFiles": [
-    "docs/程序软件/云原生相关/pve/pve介绍.md",
+    "README.md",
     "docs/程序软件/云原生相关/pve/qm命令使用.md",
+    "docs/程序软件/云原生相关/pve/pve介绍.md",
     "docs/系统相关/系统装机/系统安装/pve安装.md",
     "docs/程序软件/云原生相关/pve",
     "docs/程序软件/云原生相关/docker/docker网络/如何理解docker 的网络.md",
@@ -222,7 +223,6 @@
     "docs/编程相关/python/实用技巧/Python lambda（匿名函数）.md",
     "docs/编程相关/python/实用技巧/Python编码风格.md",
     "docs/编程相关/python/实用技巧/python测试框架-unittest.md",
-    "docs/编程相关/python/实用技巧/Python的异步操作.md",
     "docs/随心记/人工智能探索/MCP/assets/Pasted image 20251219153335.png",
     "docs/随心记/人工智能探索/MCP/assets/Pasted image 20251218202918.png",
     "docs/随心记/人工智能探索/MCP/assets/Pasted image 20251218202759.png",

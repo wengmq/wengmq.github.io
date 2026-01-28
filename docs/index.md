@@ -1,9 +1,14 @@
-# 首页
 
-- 好记性不如烂笔头，记录wengmq的学习笔记
 
-- 如果文章有侵权，请你联系我：wengmq@163.com
+- 好记性不如烂笔头，这是关于wengmq的学习笔记，记录技术探索，分享实践心得。
 
-- 网页源码：[https://github.com/wengmq/wengmq.github.io](https://github.com/wengmq/wengmq.github.io)
+- 在比特之间重构世界，于云端之上见证永恒，不畏惧错误，只畏惧停止探索。
+
+- 每一个被解决的 Bug，都是通往卓越的阶梯。保持热爱，奔赴山海。
+
+
 
 ![index2](./assets/index2.png)
+
+
+>如果文章有侵权，请您联系我：wengmq@163.com
