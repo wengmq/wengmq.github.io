@@ -31,3 +31,4 @@ Openstack的核心由三大部分构成：计算、网络、存储。而Openstac
 - https://governance.openstack.org/tc/reference/projects/
 - openstack项目代码仓库：https://opendev.org/openstack
 
+

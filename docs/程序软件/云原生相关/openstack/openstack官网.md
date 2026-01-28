@@ -17,3 +17,12 @@ OpenStack被分解为服务，允许您根据需要即插即用组件。openstac
 
 
 ![](assets/Pasted%20image%2020241114110750.png)
+
+
+
+官网：
+
+- OpenStack 虚拟机映像指南：[https://docs.openstack.org/image-guide/](https://docs.openstack.org/image-guide/)
+- OpenStack 网络指南：[https://docs.openstack.org/neutron/latest/admin/index.html](https://docs.openstack.org/neutron/latest/admin/index.html)
+- OpenStack 服务用户指南 [https://docs.openstack.org/2025.2/user/](https://docs.openstack.org/2025.2/user/)
+- OpenStack 操作指南 https://docs.openstack.org/operations-guide/
