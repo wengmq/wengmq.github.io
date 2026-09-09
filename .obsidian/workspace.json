@@ -4,24 +4,67 @@
     "type": "split",
     "children": [
       {
-        "id": "a311b98716f97d41",
+        "id": "cf3100441577d5e1",
         "type": "tabs",
         "children": [
           {
-            "id": "9041ba311f99d6ea",
+            "id": "662d9c0649b3f5bb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/index.md",
+                "file": "docs/程序软件/常用工具/openresty/docker 部署openresty.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "docker 部署openresty"
+            }
+          },
+          {
+            "id": "11f0378e36bfc911",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "README"
+            }
+          },
+          {
+            "id": "eeaebcde0badf234",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "未命名.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "未命名"
+            }
+          },
+          {
+            "id": "0b4540f744f506e0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/人工智能/面向AI开发/面向 AI 开发.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "面向 AI 开发"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -41,7 +84,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "文件列表"
@@ -53,7 +98,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "ipmi",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,7 +123,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 269.50390243530273
+    "width": 274.50390243530273
   },
   "right": {
     "id": "c9d67840af37ea85",
@@ -164,53 +209,54 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "3d26cc8b20c3b88e",
+  "active": "0b4540f744f506e0",
   "lastOpenFiles": [
+    "docs/人工智能/面向AI开发/AI 编程 skills 框架.md",
+    "docs/人工智能/面向AI开发/面向 AI 开发.md",
+    "docs/人工智能/面向AI开发/().md",
+    "docs/人工智能/cluade/claude code doc.md",
+    "docs/人工智能/openAI/openAI简介.md",
+    "docs/人工智能/cluade",
+    "docs/人工智能/未命名.md",
+    "docs/人工智能/面向AI开发.md",
+    "docs/人工智能/面向AI开发",
+    "docs/系统相关/系统装机/系统安装/pve安装.md",
+    "docs/人工智能/AI-Agent",
+    "docs/系统相关/网络管理/机器网络配置调整/debian/debian11修改网卡名称.md",
+    "docs/系统相关/网络管理/机器网络配置调整/debian/debian关闭cloudinit并且配置静态网络IP配置.md",
+    "docs/编程相关/go/go基础/go编码规范.md",
+    "docs/程序软件/云原生相关/pve/qm命令使用.md",
+    "docs/系统相关/网络管理/ipmi/ipmitool创建一个新用户.md",
+    "docs/系统相关/网络管理/ipmi/ipmi常用命令【本机执行】.md",
+    "docs/系统相关/网络管理/ipmi/ipmi常用命令.md",
+    "docs/系统相关/网络管理/ipmi/ipmitool修改ipmi的ip信息.md",
+    "docs/系统相关/系统管理/安装包管理/二进制文件制作rpm包.md",
+    "docs/人工智能/skills/skills说明.md",
     "README.md",
+    "docs/人工智能/skills",
+    "AGENTS.md",
+    "docs/程序软件/其他工具/frp/02-办公网frp穿透示例.md",
+    "未命名.md",
+    "docs/程序软件/其他工具/frp/01-frp官网说明.md",
+    "docs/程序软件/监控相关/goaccess/goaccess生成报告html.md",
+    "docs/程序软件/常用工具/openresty/docker 部署openresty.md",
+    "docs/人工智能/MCP/030-mcp和skill的区别和联系.md",
+    "docs/程序软件/常用工具/openresty",
+    "docs/程序软件/常用工具",
+    "docs/人工智能/MCP/assets/Pasted image 20251218120229.png",
+    "docs/编程相关/python/基础类",
+    "docs/编程相关/python/修饰器",
     "docs/assets/index2.png",
     "docs/assets/logo.png",
     "docs/assets/index1.png",
-    "docs/index.md",
-    "docs/人工智能/MCP/010-MCP快速实践.md",
-    "docs/人工智能/MCP/000-什么是MCP.md",
-    "docs/人工智能/openAI/openAI简介.md",
-    "docs/人工智能/MCP/020-python MCP 框架.md",
-    "docs/编程相关/python/实用技巧/Python编码风格.md",
-    "docs/人工智能/AI工具/Claude Code 、 Cursor 和 Codex对比.md",
     "docs/人工智能/AI工具/assets/Pasted image 20260610152211.png",
     "docs/人工智能/AI工具/assets",
-    "docs/人工智能/MCP/030-mcp和skill的区别和联系.md",
     "docs/人工智能/AI工具",
-    "docs/随心记/家庭宽带搭建个人服务器/02-家庭宽带申请公网IP.md",
-    "docs/随心记/家庭宽带搭建个人服务器/01-简介.md",
-    "docs/程序软件/监控相关/elk/01-elk组件介绍.md",
-    "docs/系统相关/网络管理/ipmi/ipmi常用命令【本机执行】.md",
-    "docs/系统相关/网络管理/ipmi/ipmitool创建一个新用户.md",
-    "docs/系统相关/系统管理/安装包管理/二进制文件制作rpm包.md",
-    "docs/系统相关/安全管理/iptables/iptables固化.md",
-    "docs/系统相关/安全管理/iptables/iptable原理.md",
-    "docs/系统相关/网络管理/机器网络配置调整/debian/debian11修改网卡名称.md",
-    "docs/随心记/如何科学上网/02-科学上网服务器搭建.md",
-    "docs/程序软件/云原生相关/kvm/centos7.9单机kvm实践.md",
-    "docs/系统相关/系统装机/系统安装/centos安装.md",
-    "docs/程序软件/云原生相关/openstack/cloud-init说明.md",
-    "docs/系统相关/网络管理/机器网络配置调整/rocky/020-rocky9单网卡配置多个IP.md",
-    "docs/系统相关/网络管理/机器网络配置调整/centos/010-centos7配置IPV4.md",
-    "docs/程序软件/其他工具/frp/02-办公网frp穿透示例.md",
     "docs/网络协议/02-IP协议/assets/Pasted image 20260330174245.png",
-    "docs/网络协议/02-IP协议/assets",
-    "docs/系统相关/系统装机/系统安装/未命名.base",
-    "docs/人工智能/openclaw",
     "docs/程序软件/云原生相关/openstack/openstack安装说明/assets/Pasted image 20260224154858.png",
     "docs/程序软件/云原生相关/openstack/openstack安装说明/assets/Pasted image 20260224154801.png",
-    "docs/程序软件/其他工具/fio",
-    "docs/程序软件/云原生相关/pve",
-    "docs/程序软件/云原生相关/docker/docker网络",
     "docs/程序软件/云原生相关/openstack/openstack安装说明/assets/Pasted image 20260119161127.png",
     "docs/人工智能/MCP/assets/Pasted image 20251219153335.png",
-    "docs/人工智能/MCP/assets/Pasted image 20251218202918.png",
-    "docs/人工智能/MCP/assets",
-    "docs/随心记/摄影摄像/拍照知识/assets",
     "未命名.canvas"
   ]
 }
