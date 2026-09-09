@@ -7,6 +7,6 @@ Ollama 提供对模型量化的支持，可以显著降低显存要求，使得�
 
 
 - Ollama 教程
-	- https://www.runoob.com/ollama/ollama-tutorial.html
+	- [https://www.runoob.com/ollama/ollama-tutorial.html](https://www.runoob.com/ollama/ollama-tutorial.html)
 - Ollama支持的大模型列表
-	- https://ollama.com/library
+	- [https://ollama.com/library](https://ollama.com/library)
